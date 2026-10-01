@@ -1,0 +1,5 @@
+Project owner: Anthony Imbufe
+Started shell practice for SE103-Week5
+My first attempt had an error in the file path
+I fixed the path and got a success result
+Saving outputs helps me review my work later

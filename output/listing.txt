@@ -1,0 +1,5 @@
+total 5
+drwxr-xr-x 1 HP 197609   0 Oct  1 12:42 ./
+drwxr-xr-x 1 HP 197609   0 Oct  1 12:35 ../
+-rw-r--r-- 1 HP 197609   0 Oct  1 12:36 .gitkeep
+-rw-r--r-- 1 HP 197609 203 Oct  1 12:42 journal.txt
