@@ -1,0 +1,9 @@
+Student Name: Anthony Imbufe
+GitHub Username: tonnierex001
+Repository: SE103-Week5
+Repository URL: https://github.com/tonnierex001/SE103-Week5
+All required files are on main: Yes
+
+One thing I would improve next time:
+Next time I will confirm I am on the correct branch before creating a file that belongs on a branch. I will also run git branch and git status more often so I catch branch problems before I commit. Checking those two commands takes seconds and would have saved me extra work during the pull request step.
+
