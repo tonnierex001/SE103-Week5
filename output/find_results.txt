@@ -1,0 +1,3 @@
+shell_practice/alpha.txt
+shell_practice/beta.txt
+shell_practice/journal.txt

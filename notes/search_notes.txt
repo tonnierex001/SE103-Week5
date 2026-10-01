@@ -1,0 +1,13 @@
+Student Name: Anthony Imbufe
+
+What grep helped me do:
+grep let me search inside a file for lines that match a pattern, instead of reading the whole file myself. With the -n option, it also showed the line number of each match. I used it to pull the error line out of journal.txt and save it into output/errors.txt.
+
+What find helped me do:
+find let me locate files by name pattern starting from a specific folder. I used it to list every .txt file inside shell_practice, no matter how many there were. The result went into output/find_results.txt so I could review it later.
+
+What the pipe helped me do:
+The pipe sent the output of one command straight into the next command as input. I used ls shell_practice | grep ".txt" to list the folder, then filter the listing down to just the .txt files. That combined two small commands into one useful workflow and saved the result into output/txt_matches.txt.
+
+Difference between > and >>:
+The > operator writes command output into a file and overwrites whatever was there before. The >> operator appends output to the end of the file and keeps the existing content. I used > for all my output files because I wanted fresh results, and I used >> earlier for journal.txt because I wanted to keep adding lines without erasing the first one.
