@@ -1,0 +1,13 @@
+Student Name: Anthony Imbufe
+
+What I practiced in the shell:
+This week I practiced redirecting command output into files with > and >>, so I could save results instead of only reading them on screen. I used grep to search inside files for matching lines and find to locate files by name pattern. I built a pipe with ls and grep to filter a folder listing down to just the text files. I also practiced wildcards carefully, listing matches first before copying anything. Then I committed all of that work to GitHub with clear messages so the history shows each step.
+
+How GitHub changed my submission habits:
+Before, I would finish work and leave it on my computer, hoping I would remember where it was. Now I create a folder, commit often, and push to GitHub so my work is backed up and visible. I also write commit messages that explain what changed, which makes the history useful later. When I made a mistake, I could see exactly which commit introduced it. Working on a branch and merging through a pull request has become a habit instead of a special event.
+
+One mistake I made and how I fixed it:
+One mistake I made was typing the wrong path when saving output, so the file ended up in a folder I did not expect. I ran pwd and ls to see where I actually was, then corrected the path and re-ran the command. That taught me to check my location before running any command that writes a file. I now run pwd first whenever I am unsure.
+
+Why the repository name had to be exactly SE103-Week5:
+The grader checks for the exact repository name, so any variation would fail the check even if the work inside was correct. Using the required name also makes it obvious to me and to my mentor which project belongs to which week. Clear naming rules prevent confusion when many projects are submitted over a semester.
