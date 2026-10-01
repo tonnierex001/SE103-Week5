@@ -1,0 +1,10 @@
+Student Name: Anthony Imbufe
+
+What * meant in my pattern:
+The * stands for any number of characters, so data*.txt matched every file whose name started with data and ended with .txt. In this folder, that meant data1.txt, data2.txt, and data3.txt.
+
+Why I listed matches before copying:
+Listing the matches first let me see exactly which files the pattern would affect before I acted on them. It is a safety check, because a pattern can match more files than I expect. By saving the listing into output/wildcard_ls.txt, I had proof of the target set before running the copy. Only after confirming the three files did I run cp.
+
+Why wildcards are dangerous with delete commands:
+A wildcard like data*.txt can match many files at once, and a delete command does not ask for confirmation. A single mistyped pattern, like *data.txt or data*, could wipe files I did not mean to touch. Unlike a copy, a delete cannot be undone in the shell. That is why the habit is to run ls with the same pattern first, read the list carefully, and only then reach for rm.
